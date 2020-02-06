@@ -1,13 +1,13 @@
 // import React from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button'
-import React, { Component } from 'react'
-import ButtonAppBar  from './components/navBar.js'
-import UsernameTextFields from './components/usernameField'
-import PasswordTextFields from './components/passwordField'
+import React, { Component } from 'react';
+import ButtonAppBar  from './components/navBar.js';
+import UsernameTextFields from './components/usernameField';
+import PasswordTextFields from './components/passwordField';
 import LoginButton from './components/loginButton'
-import CardOne from './components/cardOne'
-import CardTwo from './components/cardTwo'
+import CardOne from './components/cardOne';
+import CardTwo from './components/cardTwo';
 import CardThree from './components/cardThree';
 import './componentStyles/cards.css'
 
