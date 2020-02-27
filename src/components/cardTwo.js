@@ -5,6 +5,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import DiscreteSlider from '../components/volumeBar'
+
 
 
 const useStyles = makeStyles({
@@ -48,7 +50,7 @@ export default function CardTwo() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <DiscreteSlider></DiscreteSlider>
       </CardActions>
     </Card>
   );
